@@ -12,6 +12,7 @@ def turn(board)
     m = valid_move?(board, index) move(board, index)
   end
 end
+end
 display_board(board)
 end
 
