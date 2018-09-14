@@ -10,7 +10,6 @@ def turn(board)
     i = gets.strip
     index = input_to_index(i)
     m = valid_move?(board, index) move(board, index)
-  endß
 end
 display_board(board)
 end
