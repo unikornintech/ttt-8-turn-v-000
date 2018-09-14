@@ -8,6 +8,7 @@ def turn(board)
       move(board, index, current_player(board))
     end
   display_board(board)
+  current_player(board)
 end
 
 def input_to_index(input)
